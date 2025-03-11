@@ -85,26 +85,30 @@ body {
     display: flex;
     justify-content: center;
     gap: 1.5rem;
-    margin-top: 2rem;
+    margin-top: 2.5rem;
 }
 
 .btn {
     display: inline-block;
-    padding: 0.8rem 1.5rem;
+    padding: 1rem 2rem;
     border-radius: 0.5rem;
     font-weight: 600;
+    font-size: 1.1rem;
     text-decoration: none;
     transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 .btn-primary {
     background-color: var(--primary-color);
     color: white;
+    border: none;
 }
 
 .btn-primary:hover {
     background-color: var(--secondary-color);
     transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
 .btn-secondary {
@@ -116,6 +120,7 @@ body {
 .btn-secondary:hover {
     background-color: var(--accent);
     transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
 
@@ -249,12 +254,14 @@ body {
     .hero-buttons {
         flex-direction: column;
         align-items: center;
+        gap: 1rem;
     }
 
     .btn {
         width: 100%;
-        max-width: 250px;
+        max-width: 280px;
         text-align: center;
+        margin: 0.5rem 0;
     }
 }
 
