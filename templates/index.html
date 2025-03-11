@@ -4,23 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Instructional Designer & VR Learning Specialist Portfolio">
-    <title>Instructional Designer Portfolio</title>
+    <title>Nimrah Khan - Portfolio</title>
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="loading-screen">
-        <div class="loader"></div>
-    </div>
-
     <nav class="navbar">
-        <div class="nav-brand">ID Portfolio</div>
+        <div class="nav-brand">Nimrah Khan</div>
         <ul class="nav-menu">
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#resume">Resume</a></li>
-            <li><a href="#consultation">Consultation</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#insights">Insights</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
         <div class="hamburger">
@@ -32,133 +28,61 @@
 
     <section class="hero" id="hero">
         <div class="hero-content">
-            <h1 class="fade-in">I make complex topics easy to understand—curious about BCI?</h1>
-            <div class="hero-description fade-in-delay">
-                <h2>Instructional Designer & VR Learning Specialist</h2>
-                <p>Open to: Full-time roles in instructional design & project consultations via Topmate</p>
-            </div>
-            <div class="cta-buttons fade-in-delay-2">
-                <a href="#resume" class="cta-button primary">View My Resume</a>
-                <a href="#consultation" class="cta-button secondary">Consult on Projects</a>
-            </div>
-        </div>
-        <div class="wave-bottom">
-            <img src="{{ url_for('static', filename='assets/wave.svg') }}" alt="decorative wave">
+            <h1 class="fade-in">I make complex topics easy to understand - curious about Parkinson's detection in VR?</h1>
         </div>
     </section>
 
     <section id="about" class="section">
         <div class="container">
-            <h2 class="section-title">About Me</h2>
+            <h2 class="section-title">About</h2>
             <div class="about-content">
                 <div class="about-text">
-                    <p>I specialize in <strong>instructional design</strong>, <strong>VR/AR learning</strong>, and <strong>AI in XR</strong>. With experience at <strong>GS IT School</strong>, <strong>Crio.Do</strong>, and <strong>Kodland</strong>, I make <strong>cutting-edge tech</strong> accessible through <strong>engaging learning experiences</strong>.</p>
-                </div>
-                <div class="expertise-grid">
-                    <div class="expertise-card">
-                        <i class="fas fa-chalkboard-teacher"></i>
-                        <h3>Instructional Design</h3>
-                        <p>Curriculum Development & Learning Strategy</p>
-                    </div>
-                    <div class="expertise-card">
-                        <i class="fas fa-vr-cardboard"></i>
-                        <h3>VR/AR Learning</h3>
-                        <p>Unity & Spark AR Development</p>
-                    </div>
-                    <div class="expertise-card">
-                        <i class="fas fa-brain"></i>
-                        <h3>AI in XR</h3>
-                        <p>Including BCI Technology</p>
-                    </div>
+                    <p>I specialize in <strong>instructional design</strong>, <strong>VR/AR learning</strong>, and <strong>emerging technologies</strong>. With experience at <strong>GS IT School</strong>, <strong>Crio.Do</strong>, and <strong>Kodland</strong>, I make <strong>cutting-edge tech</strong> accessible through <strong>engaging learning experiences</strong>.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="portfolio" class="section">
+    <section id="work" class="section">
         <div class="container">
-            <h2 class="section-title">Portfolio</h2>
-            <div class="portfolio-filters">
-                <button class="filter-btn active" data-filter="all">All</button>
-                <button class="filter-btn" data-filter="vr">VR/AR</button>
-                <button class="filter-btn" data-filter="curriculum">Curriculum</button>
-                <button class="filter-btn" data-filter="ai">AI in XR</button>
-            </div>
-            <div class="portfolio-grid">
-                <div class="portfolio-item" data-category="vr">
-                    <div class="portfolio-content">
-                        <h3>VR Sustainability Project</h3>
-                        <p>Interactive VR experience teaching environmental sustainability</p>
-                        <div class="portfolio-links">
-                            <a href="#" class="portfolio-link"><i class="fas fa-eye"></i> Demo</a>
-                            <a href="#" class="portfolio-link"><i class="fab fa-github"></i> GitHub</a>
-                        </div>
-                    </div>
+            <h2 class="section-title">Work</h2>
+            <div class="work-grid">
+                <div class="work-item">
+                    <h3>VR Learning Specialist</h3>
+                    <p>Developing immersive educational experiences in virtual reality</p>
                 </div>
-                <div class="portfolio-item" data-category="vr">
-                    <div class="portfolio-content">
-                        <h3>AR Educational Tool</h3>
-                        <p>Mobile AR application for interactive learning</p>
-                        <div class="portfolio-links">
-                            <a href="#" class="portfolio-link"><i class="fas fa-mobile-alt"></i> Preview</a>
-                            <a href="#" class="portfolio-link"><i class="fab fa-github"></i> Repo</a>
-                        </div>
-                    </div>
+                <div class="work-item">
+                    <h3>Instructional Designer</h3>
+                    <p>Creating engaging learning content for complex technical topics</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="resume" class="section">
+    <section id="projects" class="section">
         <div class="container">
-            <h2 class="section-title">Resume</h2>
-            <div class="resume-content">
-                <div class="timeline">
-                    <div class="timeline-item">
-                        <div class="timeline-dot"></div>
-                        <div class="timeline-content">
-                            <h3>ISTQB Trainer</h3>
-                            <h4>GS IT School</h4>
-                            <p>Led technical training programs and curriculum development</p>
-                        </div>
-                    </div>
-                    <div class="timeline-item">
-                        <div class="timeline-dot"></div>
-                        <div class="timeline-content">
-                            <h3>Mentor</h3>
-                            <h4>Crio.Do</h4>
-                            <p>Guided students through technical learning paths</p>
-                        </div>
-                    </div>
-                    <div class="timeline-item">
-                        <div class="timeline-dot"></div>
-                        <div class="timeline-content">
-                            <h3>Instructor</h3>
-                            <h4>Kodland</h4>
-                            <p>Taught programming and technology concepts</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="resume-download">
-                    <a href="#" class="cta-button primary">
-                        <i class="fas fa-download"></i> Download Resume
-                    </a>
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-item">
+                    <h3>Parkinson's Detection in VR</h3>
+                    <p>Innovative approach to early detection using virtual reality technology</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="consultation" class="section">
+    <section id="insights" class="section">
         <div class="container">
-            <h2 class="section-title">Consultation</h2>
-            <div class="consultation-content">
-                <div class="consultation-text">
-                    <h3>Need help with instructional design, VR/AR learning, or exploring BCI?</h3>
-                    <p>Book a 1:1 consultation session to discuss your project needs and explore solutions together.</p>
+            <h2 class="section-title">Insights</h2>
+            <div class="insights-content">
+                <div class="publications">
+                    <h3>Published Papers</h3>
+                    <!-- Add your published papers here -->
                 </div>
-                <a href="https://topmate.io" target="_blank" class="cta-button primary">
-                    <i class="fas fa-calendar-check"></i> Schedule on Topmate
-                </a>
+                <div class="blog">
+                    <h3>Blog</h3>
+                    <!-- Add your blog posts here -->
+                </div>
             </div>
         </div>
     </section>
@@ -167,42 +91,24 @@
         <div class="container">
             <h2 class="section-title">Contact</h2>
             <div class="contact-content">
-                <div class="contact-info">
-                    <div class="contact-item">
+                <p class="contact-text">I'm open to collaborating on instructional design, VR/AR learning, and emerging tech projects. Let's discuss how I can contribute to your next big idea.</p>
+                <div class="contact-links">
+                    <a href="mailto:knimrah731@gmail.com" class="contact-link">
                         <i class="fas fa-envelope"></i>
-                        <a href="mailto:knimrah731@gmail.com">knimrah731@gmail.com</a>
-                    </div>
-                    <div class="contact-item">
+                        knimrah731@gmail.com
+                    </a>
+                    <a href="https://www.linkedin.com/in/nimrah1khan/" target="_blank" class="contact-link">
                         <i class="fab fa-linkedin"></i>
-                        <a href="#" target="_blank">LinkedIn Profile</a>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-calendar"></i>
-                        <a href="#" target="_blank">Topmate Consultation</a>
-                    </div>
+                        LinkedIn Profile
+                    </a>
                 </div>
-                <form id="contact-form" class="contact-form">
-                    <div class="form-group">
-                        <label for="name">Name</label>
-                        <input type="text" id="name" name="name" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="message">Message</label>
-                        <textarea id="message" name="message" required></textarea>
-                    </div>
-                    <button type="submit" class="cta-button primary">Send Message</button>
-                </form>
             </div>
         </div>
     </section>
 
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2024 Instructional Designer Portfolio. All rights reserved.</p>
+            <p>&copy; 2024 Nimrah Khan. All rights reserved.</p>
         </div>
     </footer>
 
